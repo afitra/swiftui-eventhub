@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftui_eventhubApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }

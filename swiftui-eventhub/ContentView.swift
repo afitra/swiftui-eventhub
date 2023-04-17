@@ -13,7 +13,13 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Lorem ipsum.")
+                        .padding()
+                        .background(Color.orange)
+                        .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                        .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous)
+                            .stroke(Color.black, lineWidth: 2)
+                        )
         }
         .padding()
     }
