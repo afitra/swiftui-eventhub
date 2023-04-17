@@ -15,6 +15,7 @@
 		85C57F7429EC52CD00C3D7AD /* OnboardingVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C57F7329EC52CD00C3D7AD /* OnboardingVIew.swift */; };
 		85F8AC3F29ECEB13001F188C /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F8AC3E29ECEB13001F188C /* RoundedCorner.swift */; };
 		85F8AC4129ED0341001F188C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F8AC4029ED0341001F188C /* LoginView.swift */; };
+		85F8AC4329ED1E9E001F188C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F8AC4229ED1E9E001F188C /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		85C57F7329EC52CD00C3D7AD /* OnboardingVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVIew.swift; sourceTree = "<group>"; };
 		85F8AC3E29ECEB13001F188C /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		85F8AC4029ED0341001F188C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		85F8AC4229ED1E9E001F188C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				85C57F6529EC341A00C3D7AD /* ContentView.swift */,
 				85C57F6729EC341C00C3D7AD /* Assets.xcassets */,
 				85F8AC4029ED0341001F188C /* LoginView.swift */,
+				85F8AC4229ED1E9E001F188C /* SignupView.swift */,
 				85C57F7129EC378E00C3D7AD /* SplashView.swift */,
 				85C57F7329EC52CD00C3D7AD /* OnboardingVIew.swift */,
 				85C57F6929EC341C00C3D7AD /* Preview Content */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F8AC4329ED1E9E001F188C /* SignupView.swift in Sources */,
 				85F8AC4129ED0341001F188C /* LoginView.swift in Sources */,
 				85C57F6629EC341A00C3D7AD /* ContentView.swift in Sources */,
 				85C57F7429EC52CD00C3D7AD /* OnboardingVIew.swift in Sources */,
@@ -299,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
