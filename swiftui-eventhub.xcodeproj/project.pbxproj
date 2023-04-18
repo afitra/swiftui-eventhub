@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850C8CD829EE8A0600A11C78 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C8CD729EE8A0600A11C78 /* HomeView.swift */; };
 		85C57F6429EC341A00C3D7AD /* swiftui_eventhubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C57F6329EC341A00C3D7AD /* swiftui_eventhubApp.swift */; };
 		85C57F6629EC341A00C3D7AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C57F6529EC341A00C3D7AD /* ContentView.swift */; };
 		85C57F6829EC341C00C3D7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C57F6729EC341C00C3D7AD /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850C8CD729EE8A0600A11C78 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		85C57F6029EC341A00C3D7AD /* swiftui-eventhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-eventhub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C57F6329EC341A00C3D7AD /* swiftui_eventhubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_eventhubApp.swift; sourceTree = "<group>"; };
 		85C57F6529EC341A00C3D7AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +49,6 @@
 		85C57F5729EC341A00C3D7AD = {
 			isa = PBXGroup;
 			children = (
-				85F8AC4429ED32A7001F188C /* VerificationView.swift */,
 				85C57F6229EC341A00C3D7AD /* swiftui-eventhub */,
 				85C57F6129EC341A00C3D7AD /* Products */,
 			);
@@ -69,6 +70,8 @@
 				85C57F6529EC341A00C3D7AD /* ContentView.swift */,
 				85C57F6729EC341C00C3D7AD /* Assets.xcassets */,
 				85F8AC4029ED0341001F188C /* LoginView.swift */,
+				85F8AC4429ED32A7001F188C /* VerificationView.swift */,
+				850C8CD729EE8A0600A11C78 /* HomeView.swift */,
 				85F8AC4229ED1E9E001F188C /* SignupView.swift */,
 				85C57F7129EC378E00C3D7AD /* SplashView.swift */,
 				85C57F7329EC52CD00C3D7AD /* OnboardingVIew.swift */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850C8CD829EE8A0600A11C78 /* HomeView.swift in Sources */,
 				85F8AC4329ED1E9E001F188C /* SignupView.swift in Sources */,
 				85F8AC4129ED0341001F188C /* LoginView.swift in Sources */,
 				85C57F6629EC341A00C3D7AD /* ContentView.swift in Sources */,

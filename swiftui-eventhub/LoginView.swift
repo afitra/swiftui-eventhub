@@ -13,7 +13,8 @@ struct LoginView: View {
     @State private var isToggle : Bool = true
     @State private var isShowingDetailView: Bool = false
     @State private var verifiedView: Bool = false
- 
+    
+
     var body: some View {
         NavigationView {
             VStack{
