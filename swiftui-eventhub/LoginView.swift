@@ -12,6 +12,8 @@ struct LoginView: View {
     @State private var pass : String = ""
     @State private var isToggle : Bool = true
     @State private var isShowingDetailView: Bool = false
+    @State private var verifiedView: Bool = false
+ 
     var body: some View {
         NavigationView {
             VStack{
@@ -58,22 +60,21 @@ struct LoginView: View {
                     Spacer()
                     Text("Forgot assword?")
                 } .padding(.bottom,30)
-                Button(action: {
-                    print("Button Sign in")
-                }) {
+ 
+                NavigationLink(destination: VerificationView(), isActive: self.$verifiedView) {
                     HStack {
                         Spacer()
                         Text("Sign in")
-                            .font(.system(size: 20))
+                            .font(.system(size: 25))
                             .fontWeight(.semibold)
+                            .foregroundColor(.white)
                         Spacer()
                         Image("right_arrow")
-                        
+
                     }
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .padding()
+                    .padding(.horizontal, 10.0)
                 }
+                .frame(width: .infinity, height: 65.0)
                 .background(Color("primary"))
                 .cornerRadius(15)
                 .padding(.bottom,30)
@@ -142,6 +143,7 @@ struct LoginView: View {
             }
             .padding(.horizontal, 20.0)
         }
+        .ignoresSafeArea()
       
     }
 }
